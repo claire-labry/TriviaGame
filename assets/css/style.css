@@ -1,0 +1,29 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Open Sans Condensed';
+    background-image: url("../images/close-up-photo-of-small-jellyfish-1687678.jpg");
+    }
+
+.jumbotron{
+    background-color: rgb(145, 145, 226);
+}
+
+h1,
+h2{
+        color:black;
+        font-size: 30px;
+        font-family: 'Open Sans Condensed';
+        text-align: center;
+    
+    }
+
+.btn {
+        color: #fff;
+        background-color: black;
+        border-color: black;
+        display: block;
+        float: right;
+        font-weight: 400;
+        font-family: 'Open Sans Condensed';
+}
