@@ -10,7 +10,9 @@ body{
 }
 
 h1,
-h2{
+#timeRemaining,
+.q,
+.optradio {
         color:black;
         font-size: 30px;
         font-family: 'Open Sans Condensed';
@@ -27,3 +29,10 @@ h2{
         font-weight: 400;
         font-family: 'Open Sans Condensed';
 }
+
+.results{
+    color:black;
+        font-size: 30px;
+        font-family: 'Open Sans Condensed';
+}
+
