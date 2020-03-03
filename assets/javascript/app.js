@@ -49,6 +49,8 @@ function stop(){
 }
 
 function displaySummary(){
+    console.log(correctAnswers);
+    console.log(wrongAnswers);
     $('.results').show();
     unanswered = (10-(correctAnswers + wrongAnswers));
     $('#correctScore').text("Correct Answers:" + " " + correctAnswers);
@@ -68,11 +70,15 @@ $('#start-game').on('click', function(){
 $('#game-finished').on('click', function(){
     $('.results').show();
     displaySummary();
+    $('.trivia-questions').hide();
+    $('#timeRemaining').hide();
 });
 
 $('input[type=radio]').on ('change', function(){
     correctAnswers = $('input[value=correct]:checked').length;
+    console.log(correctAnswers);
     wrongAnswers = $('input[value=wrong]:checked').length;
+    console.log(wrongAnswers);
     unanswered = (10-(correctAnswers + wrongAnswers));
     });
 
