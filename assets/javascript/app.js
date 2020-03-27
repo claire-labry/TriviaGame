@@ -69,6 +69,7 @@ $('#start-game').on('click', function(){
 
 $('#game-finished').on('click', function(){
     $('.results').show();
+    $('#game-finished').hide();
     displaySummary();
     $('.trivia-questions').hide();
     $('#timeRemaining').hide();
@@ -83,3 +84,9 @@ $('input[type=radio]').on ('change', function(){
     });
 
 });
+
+function reset(){
+    $('#game-reset').on('click', function (){
+      location.reload();
+    })
+  };

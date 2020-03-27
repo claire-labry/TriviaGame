@@ -5,34 +5,52 @@ body{
     background-image: url("../images/close-up-photo-of-small-jellyfish-1687678.jpg");
     }
 
-.jumbotron{
-    background-color: rgb(145, 145, 226);
+.container{
+    margin-top: 90px;
+    margin-bottom: 50px;
+
 }
 
 h1,
 #timeRemaining,
-.q,
-.optradio {
+.q {
         color:black;
         font-size: 30px;
         font-family: 'Open Sans Condensed';
         text-align: center;
+        background-color: coral;
+        border-radius: 25px;
+        padding: 10px;
     
     }
+.question{
+    padding: 10px;
+    color:black;
+    font-size: 25px;
+    font-family: 'Open Sans Condensed';
+    text-align: center;
+    background-color: cornflowerblue;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.optradio{
+    font-size: 20px;
+    margin: 10px;
+}
 
 .btn {
         color: #fff;
         background-color: black;
-        border-color: black;
-        display: block;
-        float: right;
         font-weight: 400;
         font-family: 'Open Sans Condensed';
 }
 
 .results{
-    color:white;
-        font-size: 30px;
-        font-family: 'Open Sans Condensed';
+    color:black;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Open Sans Condensed';
 }
 
