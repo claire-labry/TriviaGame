@@ -11,7 +11,7 @@ $("#game-finished").hide();
 
 // DE'CLAIRE'ING THE VARIABLES
 
-var countdown = 30; 
+var countdown = 5; 
 var intervalId; 
 var correctAnswers;
 var wrongAnswers;
@@ -39,6 +39,8 @@ function decrement(){
     else if(countdown === 0){
         stop();
         displaySummary();
+        $(".container-questions").hide();
+        $("#game-finished").hide();
     }
 }
 
@@ -85,8 +87,6 @@ $('input[type=radio]').on ('change', function(){
 
 });
 
-function reset(){
-    $('#game-reset').on('click', function (){
+$('#game-reset').on('click', function (){
       location.reload();
     })
-  };
