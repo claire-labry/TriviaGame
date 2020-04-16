@@ -33,13 +33,12 @@ function showQuestions(){
 $('#timeRemaining').show();
 $(".trivia-questions").show();
 $("#game-done").show();
-
 }
 
 // function that calls for the timer to decrease by one second
-function countdownTimer(){
-    intervalId = setInterval(decrement, 1000);
-}
+window.onload = function countdownTimer(){
+    intervalId = setInterval(decrement,1000);
+};
 
 // function that invokes the decrement of the timer
 function decrement(){
