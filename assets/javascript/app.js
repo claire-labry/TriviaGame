@@ -18,13 +18,13 @@ var countdown = 30;
 var intervalId; 
 
 // holds the correct answers
-var correctAnswers;
+var correctAnswers = 0;
 
 // holds the wrong answers
-var wrongAnswers;
+var wrongAnswers = 0;
 
 // holds unanswered questions
-var unanswered; 
+var unanswered = 0; 
 
 // FUNCTIONS
 
