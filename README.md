@@ -8,7 +8,7 @@ This is a trivia game that is designed for the user to answer ten questions abou
 
 - User clicks start to begin the trivia game.
 
-![](assets/images/start.png)
+![](assets/images/start_updated.png)
 
 - User takes 10 trivia questions pertaining to marine biology
 
