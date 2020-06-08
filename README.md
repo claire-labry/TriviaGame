@@ -1,14 +1,10 @@
 # TriviaGame
 
-Marine Biology Trivia Game! 
-
-If you're interested in learning more about marine biology then this trivia game is for you! 
-
+Marine Biology Trivia Game - Assignment #5 for UT Austin Fullstack Coding Bootcamp
 Creator: Claire Labry
 
-Assignment #5 for UT Coding Bootcamp
+This trivia game is a platform where users can test their knowledge on marine science under a limited amount of time. Platform created with vanilla Javascript + Bootstrap.
 
-Theme: Marine Life
+Theme: Marine Science
 
-This is a trivia game that is designed for the user to answer ten questions about the marine animals/facts. The trivia game forces the user to pick one answer, that answer is either correct or wrong. If the 30 second timer goes out, the game is over. If the user has clicked the "i'm finished, yo!" button, the user has beat the computer. At the end of the game, the user will see their results. 
-
+This is a trivia game that is designed for the user to answer ten questions about marine animals/facts and the science behind them. The trivia game encourages the user to pick one answer, that answer is either correct or wrong. If the 30 second timer goes out, the game is over. If the user has clicked the "sumbit" button, the user has beat the computer. At the end of the game, the user will see their results, which outlines how many correct + wrong answers they have.
