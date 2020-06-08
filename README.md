@@ -1,10 +1,10 @@
 # Marine Biology Trivia Game
 
-## Assignment #5 for UT Austin Fullstack Coding Bootcamp
+### Assignment #5 for UT Austin Fullstack Coding Bootcamp
 
-## Creator: Claire Labry
+### Creator: Claire Labry
 
-## Platform created with vanilla Javascript + Bootstrap.
+### Platform created with vanilla Javascript + Bootstrap.
 
 # Theme: Marine Science
 
