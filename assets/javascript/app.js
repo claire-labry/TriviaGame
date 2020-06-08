@@ -129,4 +129,3 @@ $('#game-reset').on('click', function () {
 
 // Create a modal that displays messages + based on how you did
 // In that modal, display the user's correct + wrong answers
-//
